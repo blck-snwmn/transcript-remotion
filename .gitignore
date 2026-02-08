@@ -37,6 +37,9 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 asset/*
 !asset/.gitkeep
 
+# temporary files
+.tmp/
+
 # generated files in public
 public/*.mp4
 public/*.mp3
