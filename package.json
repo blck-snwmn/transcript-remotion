@@ -1,12 +1,38 @@
 {
   "name": "transcript-remotion",
-  "module": "index.ts",
+  "module": "src/index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts TranscriptVideo --props=public/props.json",
+    "render:audio": "remotion render src/index.ts TranscriptAudio --props=public/props.json",
+    "transcribe": "bun run scripts/transcribe.ts",
+    "lint": "oxlint --type-aware --type-check --deny-warnings .",
+    "lint:fix": "oxlint --type-aware --type-check --deny-warnings . --fix",
+    "fmt": "oxfmt --write src/ scripts/",
+    "fmt:check": "oxfmt --check src/ scripts/"
+  },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "oxfmt": "^0.28.0",
+    "oxlint": "^1.43.0",
+    "oxlint-tsgolint": "^0.11.5"
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "@google/genai": "^1.40.0",
+    "@remotion/captions": "4.0.419",
+    "@remotion/cli": "^4.0.419",
+    "@remotion/media": "4.0.419",
+    "@types/react": "^19.2.13",
+    "mediabunny": "^1.32.2",
+    "openai": "^6.18.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "remotion": "^4.0.419",
+    "zod": "3.22.3"
   }
 }

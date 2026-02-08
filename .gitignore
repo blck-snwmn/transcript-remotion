@@ -32,3 +32,15 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # Finder (MacOS) folder config
 .DS_Store
+
+# input media files
+asset/*
+!asset/.gitkeep
+
+# generated files in public
+public/*.mp4
+public/*.mp3
+public/*.m4a
+public/*.wav
+public/*.srt
+public/*.json
