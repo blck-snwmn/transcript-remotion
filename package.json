@@ -5,8 +5,7 @@
   "private": true,
   "scripts": {
     "studio": "remotion studio src/index.ts",
-    "render": "remotion render src/index.ts TranscriptVideo --props=public/props.json",
-    "render:audio": "remotion render src/index.ts TranscriptAudio --props=public/props.json",
+    "render": "bun run scripts/render.ts",
     "transcribe": "bun run scripts/transcribe.ts",
     "lint": "oxlint --type-aware --type-check --deny-warnings .",
     "lint:fix": "oxlint --type-aware --type-check --deny-warnings . --fix",

@@ -53,12 +53,10 @@ Opens Remotion Studio in your browser to preview the video with captions.
 ### 4. Render
 
 ```bash
-# For video files
 bun run render
-
-# For audio files
-bun run render:audio
 ```
+
+Automatically detects whether the media is video or audio from the file extension and selects the appropriate composition.
 
 ### Caption Modes
 
@@ -74,6 +72,7 @@ transcript-remotion/
 ├── asset/                        # Input media files
 ├── scripts/
 │   ├── transcribe.ts             # CLI entry point
+│   ├── render.ts                 # Auto-detect render script
 │   ├── openai-transcriber.ts     # OpenAI Whisper API
 │   ├── gemini-transcriber.ts     # Gemini API
 │   └── srt.ts                    # SRT format utilities
@@ -96,8 +95,7 @@ transcript-remotion/
 | Script | Description |
 |--------|-------------|
 | `bun run studio` | Start Remotion Studio |
-| `bun run render` | Render video |
-| `bun run render:audio` | Render audio video |
+| `bun run render` | Render video (auto-detects video/audio) |
 | `bun run transcribe` | Run transcription |
 | `bun run lint` | Run oxlint |
 | `bun run lint:fix` | Run oxlint with auto-fix |
