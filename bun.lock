@@ -15,7 +15,7 @@
         "react": "^19.2.4",
         "react-dom": "^19.2.4",
         "remotion": "^4.0.419",
-        "zod": "3.22.5",
+        "zod": "4.4.3",
       },
       "devDependencies": {
         "@types/bun": "latest",
@@ -668,7 +668,7 @@
 
     "yauzl": ["yauzl@2.10.0", "", { "dependencies": { "buffer-crc32": "~0.2.3", "fd-slicer": "~1.1.0" } }, "sha512-p4a9I6X6nu6IhoGmBqAcbJy1mlC4j27vEPZX9F4L4/vZT3Lyq1VkFHw/V/PUcB9Buo+DG3iHkT0x3Qya58zc3g=="],
 
-    "zod": ["zod@3.22.5", "", {}, "sha512-HqnGsCdVZ2xc0qWPLdO25WnseXThh0kEYKIdV5F/hTHO75hNZFp8thxSeHhiPrHZKrFTo1SOgkAj9po5bexZlw=="],
+    "zod": ["zod@4.4.3", "", {}, "sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ=="],
 
     "@remotion/media/mediabunny": ["mediabunny@1.45.0", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-oK3sMMYbucoF6LUX62L/2M9d+p9ve6KDQgL87kNfhsB0/XmTe9iRLUcgQgg9Gpgvi8Sb96zYfOUL6i17y0bdNg=="],
 
