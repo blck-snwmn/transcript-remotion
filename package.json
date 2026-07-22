@@ -7,6 +7,8 @@
     "studio": "remotion studio src/index.ts",
     "render": "bun run scripts/render.ts",
     "transcribe": "bun run scripts/transcribe.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "remotion bundle src/index.ts",
     "lint": "oxlint --deny-warnings .",
     "lint:fix": "oxlint --deny-warnings . --fix",
     "fmt": "oxfmt --write src/ scripts/",
@@ -25,14 +27,14 @@
   "dependencies": {
     "@google/genai": "^2.0.0",
     "@remotion/captions": "4.0.493",
-    "@remotion/cli": "^4.0.419",
+    "@remotion/cli": "4.0.493",
     "@remotion/media": "4.0.493",
     "@types/react": "^19.2.13",
-    "mediabunny": "^1.32.2",
+    "mediabunny": "1.50.8",
     "openai": "^6.18.0",
     "react": "^19.2.4",
     "react-dom": "^19.2.4",
-    "remotion": "^4.0.419",
-    "zod": "4.4.3"
+    "remotion": "4.0.493",
+    "zod": "4.3.6"
   }
 }
