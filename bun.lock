@@ -6,7 +6,7 @@
       "name": "transcript-remotion",
       "dependencies": {
         "@google/genai": "^2.0.0",
-        "@remotion/captions": "4.0.494",
+        "@remotion/captions": "4.0.495",
         "@remotion/cli": "4.0.494",
         "@remotion/media": "4.0.494",
         "@types/react": "^19.2.13",
@@ -245,7 +245,7 @@
 
     "@remotion/canvas-capture": ["@remotion/canvas-capture@4.0.494", "", { "dependencies": { "mediabunny": "1.50.8", "remotion": "4.0.494" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-oa6MLybo5wgC+woLO/G657gzfKKIWwUBO8vzmRKD+nxr+tiU6F5ZZCw+RXIFboOZ/525Lw59XNFBBwivh0bV5w=="],
 
-    "@remotion/captions": ["@remotion/captions@4.0.494", "", {}, "sha512-cHxoXz14V4t84uXrJX+CbWtsf21cf/Q+VktueL3R1DsgY+4euoju3E8fc9/JxOFpZB+vh1u3xdBsDumOjYpwfQ=="],
+    "@remotion/captions": ["@remotion/captions@4.0.495", "", {}, "sha512-01Mxy9N2F1cI0iZeAWxFUrMOU1WDkB6dnsqPM3Xxc9P7e0cMbaIqxnnMEb0wPdIzhioCYu6YhuTpuGVQmoqRKA=="],
 
     "@remotion/cli": ["@remotion/cli@4.0.494", "", { "dependencies": { "@remotion/bundler": "4.0.494", "@remotion/media-utils": "4.0.494", "@remotion/player": "4.0.494", "@remotion/renderer": "4.0.494", "@remotion/studio": "4.0.494", "@remotion/studio-server": "4.0.494", "@remotion/studio-shared": "4.0.494", "dotenv": "17.3.1", "minimist": "1.2.6", "prompts": "2.4.2", "remotion": "4.0.494" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" }, "bin": { "remotion": "remotion-cli.js", "remotionb": "remotionb-cli.js", "remotiond": "remotiond-cli.js" } }, "sha512-IeOqt2KKj+XFD3j1CuYM1wUYnZRGI4lyzN5AfRMuD8Ee6tzZC3tdlZtwjb9ybfSL0ak8HFAmzE3PaldfzSN5YA=="],
 
