@@ -8,7 +8,7 @@
         "@google/genai": "^2.0.0",
         "@remotion/captions": "4.0.495",
         "@remotion/cli": "4.0.495",
-        "@remotion/media": "4.0.494",
+        "@remotion/media": "4.0.495",
         "@types/react": "^19.2.13",
         "mediabunny": "1.50.9",
         "openai": "^6.18.0",
@@ -291,7 +291,7 @@
 
     "@remotion/licensing": ["@remotion/licensing@4.0.495", "", {}, "sha512-7Z4m+fEBvRFJm7ZQqez9fbufLBLkhHZK2fcC4mtwFI2FutVcFUfUTY8/54ehLW1KoGr5TXca7xz6EdrXO6+Y5Q=="],
 
-    "@remotion/media": ["@remotion/media@4.0.494", "", { "dependencies": { "mediabunny": "1.50.8", "remotion": "4.0.494", "zod": "4.3.6" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-Gj0ZGZPFL+PxT3wYc4LjhrMPSkcNb1zg47odog19pn4VirYoPOxBRlKWp/yta3x6ruuQrYF/tKLqwlCdN0cSwg=="],
+    "@remotion/media": ["@remotion/media@4.0.495", "", { "dependencies": { "mediabunny": "1.50.8", "remotion": "4.0.495", "zod": "4.3.6" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-5d8DxPxEWG5mRqWeG8m5mDsHTnjmhwNmCWrPejtSLRJIn08TeOsLmCH/QuLWcck+NYr5U+Y8NonnufCiwOqK0Q=="],
 
     "@remotion/media-parser": ["@remotion/media-parser@4.0.495", "", {}, "sha512-AgKXV+9bbqprgM+dNgA3SvZ6YJocLVuCA5IOwv9TRbSBZIl1gupolD4FDpObxeB5A+bscaNuMGe/Uq2iDvaDCA=="],
 
@@ -858,6 +858,8 @@
     "@remotion/cli/remotion": ["remotion@4.0.495", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-eyMlNW7NaaJXcjPdbvnLk6Snrm99trpyS0dQjQ3W5FQIiKG3mzlaEY+DYYol3O3+Jx6xS/rU3kn+NwHIKcTL/w=="],
 
     "@remotion/media/mediabunny": ["mediabunny@1.50.8", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-LgykLyQzhdpo0V2yw3UXmOpj+b4JAGdpHBwsPE6kjSt8Za0d1VllD+FV7EGHBcdV4+oHUAo+yrqbVAWxNSDCPQ=="],
+
+    "@remotion/media/remotion": ["remotion@4.0.495", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-eyMlNW7NaaJXcjPdbvnLk6Snrm99trpyS0dQjQ3W5FQIiKG3mzlaEY+DYYol3O3+Jx6xS/rU3kn+NwHIKcTL/w=="],
 
     "@remotion/media/zod": ["zod@4.3.6", "", {}, "sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg=="],
 
