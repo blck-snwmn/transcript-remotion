@@ -29,7 +29,7 @@
     "@remotion/captions": "4.0.496",
     "@remotion/cli": "4.0.495",
     "@remotion/media": "4.0.495",
-    "@types/react": "^19.2.13",
+    "@types/react": "19.2.17",
     "mediabunny": "1.50.9",
     "openai": "6.49.0",
     "react": "19.2.8",
