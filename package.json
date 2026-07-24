@@ -19,7 +19,7 @@
     "oxfmt": "0.59.0",
     "oxlint": "1.75.0",
     "oxlint-tsgolint": "7.0.2001",
-    "typescript": "5.9.3"
+    "typescript": "7.0.2"
   },
   "peerDependencies": {
     "typescript": "^5 || ^6.0.0 || ^7.0.0"
