@@ -8,7 +8,7 @@
         "@google/genai": "2.13.0",
         "@remotion/captions": "4.0.499",
         "@remotion/cli": "4.0.499",
-        "@remotion/media": "4.0.498",
+        "@remotion/media": "4.0.499",
         "@types/react": "19.2.17",
         "mediabunny": "1.51.0",
         "openai": "6.49.0",
@@ -293,7 +293,7 @@
 
     "@remotion/licensing": ["@remotion/licensing@4.0.499", "", {}, "sha512-dKjaYAJsxCUXDvAjJW8bHIUe+dYAXEcq2M0RVrqdS1CEUZPUQXhzIbYILX+slcVb5c8/DD5t+edm7d2VSY81Tg=="],
 
-    "@remotion/media": ["@remotion/media@4.0.498", "", { "dependencies": { "mediabunny": "1.50.8", "remotion": "4.0.498", "zod": "4.3.6" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-eehkWrVLounCPpN8SxDp6Kt9ItPhSnRpbS6RUQxG9pqstLYhzKgzrw3fC1BoVIV2JYosfMQ67Kc94zhfez7Eag=="],
+    "@remotion/media": ["@remotion/media@4.0.499", "", { "dependencies": { "mediabunny": "1.50.8", "remotion": "4.0.499", "zod": "4.4.3" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-X7YKF/J62bqUxmuPQWlWLbsxDEKiVa8PVhQSO/kQRQQxTpiUgBLnML1LTKlYx0dVW56CKUZEeI86hZAxLIy9fA=="],
 
     "@remotion/media-parser": ["@remotion/media-parser@4.0.499", "", {}, "sha512-3RX9OFko0gW1ixi87eoYx2FLOndVb4eo/KONIiq0yKwho1IMYAq8r8tIkqmSksVG0RlWqW4FwXa9kp9lhiqfDA=="],
 
@@ -861,7 +861,7 @@
 
     "@remotion/media/mediabunny": ["mediabunny@1.50.8", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-LgykLyQzhdpo0V2yw3UXmOpj+b4JAGdpHBwsPE6kjSt8Za0d1VllD+FV7EGHBcdV4+oHUAo+yrqbVAWxNSDCPQ=="],
 
-    "@remotion/media/zod": ["zod@4.3.6", "", {}, "sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg=="],
+    "@remotion/media/remotion": ["remotion@4.0.499", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-QX5B1XDFBQpr8mYUBqhgCrH0cQJmqfI7zA46k9CsZhri/H9quXObYQBgeNDcxUhoulVvOOjVQqp5d0RAwB94HA=="],
 
     "@remotion/media-utils/mediabunny": ["mediabunny@1.50.8", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-LgykLyQzhdpo0V2yw3UXmOpj+b4JAGdpHBwsPE6kjSt8Za0d1VllD+FV7EGHBcdV4+oHUAo+yrqbVAWxNSDCPQ=="],
 
