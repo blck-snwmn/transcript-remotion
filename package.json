@@ -27,7 +27,7 @@
   "dependencies": {
     "@google/genai": "2.16.0",
     "@remotion/captions": "4.0.507",
-    "@remotion/cli": "4.0.506",
+    "@remotion/cli": "4.0.507",
     "@remotion/media": "4.0.506",
     "@types/react": "19.2.18",
     "mediabunny": "1.52.3",
