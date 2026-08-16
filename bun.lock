@@ -10,7 +10,7 @@
         "@remotion/cli": "4.0.509",
         "@remotion/media": "4.0.509",
         "@types/react": "19.2.18",
-        "mediabunny": "1.53.0",
+        "mediabunny": "1.53.1",
         "openai": "7.4.0",
         "react": "19.2.8",
         "react-dom": "19.2.8",
@@ -627,7 +627,7 @@
 
     "lru-cache": ["lru-cache@6.0.0", "", { "dependencies": { "yallist": "^4.0.0" } }, "sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA=="],
 
-    "mediabunny": ["mediabunny@1.53.0", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-RjWe9yJr9MPvb6kX4gSu54fZD2w1yf6RyCS0Jmgaml+fFSqEr7+XuASXoRxSqJxgc+wIe+7TujXWcyj3evJ3Bg=="],
+    "mediabunny": ["mediabunny@1.53.1", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-w25gA6mQuHSLzdpWswqwndbKtHFcJ0IRowJaIHgY7rlJaVTHhomfx5mLq4IHqonrsGCGDE/LIrtXz8mxiDzavA=="],
 
     "memfs": ["memfs@3.4.3", "", { "dependencies": { "fs-monkey": "1.0.3" } }, "sha512-eivjfi7Ahr6eQTn44nvTnR60e4a1Fs1Via2kCR5lHo/kyNoiMWaXCNJ/GpSd0ilXas2JSOl9B5FTIhflXu0hlg=="],
 
