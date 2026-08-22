@@ -8,7 +8,7 @@
         "@google/genai": "2.17.1",
         "@remotion/captions": "4.0.513",
         "@remotion/cli": "4.0.513",
-        "@remotion/media": "4.0.512",
+        "@remotion/media": "4.0.513",
         "@types/react": "19.2.18",
         "mediabunny": "1.55.1",
         "openai": "7.5.0",
@@ -289,7 +289,7 @@
 
     "@remotion/licensing": ["@remotion/licensing@4.0.513", "", {}, "sha512-KThoRJcXhGT1y30YeSiQVmHjqav/y7hMGpDjQYDEVi64JZAfbkYqHpmXN/otSztWnceeqcg+u1ApDT8liqqLSQ=="],
 
-    "@remotion/media": ["@remotion/media@4.0.512", "", { "dependencies": { "mediabunny": "1.50.8", "remotion": "4.0.512", "zod": "4.4.3" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-/VmCY0D0KiXXqjQGOy2Mh/CtG9gPRpbWsIin/g/oBbosFNpWGYRSAB9gL+6wx4mPHeonSGMCyJMKyXVmm83FeQ=="],
+    "@remotion/media": ["@remotion/media@4.0.513", "", { "dependencies": { "mediabunny": "1.50.8", "remotion": "4.0.513", "zod": "4.4.3" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-htjbW1F7lA7/sPhg4aT4uiACIt5BMiitynwhkhm0ESE3TX8dLhquj6lFyUg9N0FtJtp/pFcmhwqwjYtAr3FmOQ=="],
 
     "@remotion/media-parser": ["@remotion/media-parser@4.0.513", "", {}, "sha512-rCQRn1EFVB8Xa51ojLdSWv6bPoGSoXwLjAlX6fkuaqSJRmjq3nvbKR6rzRL3uB6esTjVysaeiXuTzaPMsXoTLQ=="],
 
@@ -846,6 +846,8 @@
     "@remotion/cli/remotion": ["remotion@4.0.513", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-cDaUqFq7GBuxYYSINhfXy5+X7V4L3fSy3lDL4G/7v61jCpEzYcRQftAKo2Cyj1evHt34bn++4eMMUZBMh624yA=="],
 
     "@remotion/media/mediabunny": ["mediabunny@1.50.8", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-LgykLyQzhdpo0V2yw3UXmOpj+b4JAGdpHBwsPE6kjSt8Za0d1VllD+FV7EGHBcdV4+oHUAo+yrqbVAWxNSDCPQ=="],
+
+    "@remotion/media/remotion": ["remotion@4.0.513", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-cDaUqFq7GBuxYYSINhfXy5+X7V4L3fSy3lDL4G/7v61jCpEzYcRQftAKo2Cyj1evHt34bn++4eMMUZBMh624yA=="],
 
     "@remotion/media-utils/mediabunny": ["mediabunny@1.50.8", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-LgykLyQzhdpo0V2yw3UXmOpj+b4JAGdpHBwsPE6kjSt8Za0d1VllD+FV7EGHBcdV4+oHUAo+yrqbVAWxNSDCPQ=="],
 
