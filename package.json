@@ -25,7 +25,7 @@
     "typescript": "^5 || ^6.0.0 || ^7.0.0"
   },
   "dependencies": {
-    "@google/genai": "2.17.1",
+    "@google/genai": "2.18.0",
     "@remotion/captions": "4.0.513",
     "@remotion/cli": "4.0.513",
     "@remotion/media": "4.0.513",
