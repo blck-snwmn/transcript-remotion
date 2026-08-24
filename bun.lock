@@ -8,7 +8,7 @@
         "@google/genai": "2.18.0",
         "@remotion/captions": "4.0.514",
         "@remotion/cli": "4.0.514",
-        "@remotion/media": "4.0.513",
+        "@remotion/media": "4.0.514",
         "@types/react": "19.2.18",
         "mediabunny": "1.55.1",
         "openai": "7.5.0",
@@ -289,7 +289,7 @@
 
     "@remotion/licensing": ["@remotion/licensing@4.0.514", "", {}, "sha512-JDDYG7NvjKvjvN0wpaRZOpc66CriUU01rOUDK2oTuUwflvi+mnjr+kNuA1ABtMpeA+05/Bru6EpgLm7IEAhrVA=="],
 
-    "@remotion/media": ["@remotion/media@4.0.513", "", { "dependencies": { "mediabunny": "1.50.8", "remotion": "4.0.513", "zod": "4.4.3" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-htjbW1F7lA7/sPhg4aT4uiACIt5BMiitynwhkhm0ESE3TX8dLhquj6lFyUg9N0FtJtp/pFcmhwqwjYtAr3FmOQ=="],
+    "@remotion/media": ["@remotion/media@4.0.514", "", { "dependencies": { "mediabunny": "1.55.1", "remotion": "4.0.514", "zod": "4.4.3" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-IG/w8cPck+uTs+uOnm4VcM8nVbPJ5DC2yUVUYFDNAOTkxbm8/E7wiYetndN9tCUJPBAtkFkDWkW/9laQw3KToA=="],
 
     "@remotion/media-parser": ["@remotion/media-parser@4.0.514", "", {}, "sha512-kINln8iaD2djz+Us/mqUF7Af5krGn7XsUgeeK0oxOwILaXGaxN2Zc7rN8dBqFrBEpdTl/A1bI2j1zHNWyFmzAw=="],
 
@@ -849,7 +849,7 @@
 
     "@remotion/cli/remotion": ["remotion@4.0.514", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-uhfvNqzs0v0Sg6+lI2bGpWHZd7fEmMpfJC6r4jR+EZXIPpWwH3VldEeO9BeoSrAEVsrt8l7TKwXxy6/duDO/9g=="],
 
-    "@remotion/media/mediabunny": ["mediabunny@1.50.8", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-LgykLyQzhdpo0V2yw3UXmOpj+b4JAGdpHBwsPE6kjSt8Za0d1VllD+FV7EGHBcdV4+oHUAo+yrqbVAWxNSDCPQ=="],
+    "@remotion/media/remotion": ["remotion@4.0.514", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-uhfvNqzs0v0Sg6+lI2bGpWHZd7fEmMpfJC6r4jR+EZXIPpWwH3VldEeO9BeoSrAEVsrt8l7TKwXxy6/duDO/9g=="],
 
     "@remotion/media-utils/remotion": ["remotion@4.0.514", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-uhfvNqzs0v0Sg6+lI2bGpWHZd7fEmMpfJC6r4jR+EZXIPpWwH3VldEeO9BeoSrAEVsrt8l7TKwXxy6/duDO/9g=="],
 
