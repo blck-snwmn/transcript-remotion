@@ -14,7 +14,7 @@
         "openai": "7.5.0",
         "react": "19.2.8",
         "react-dom": "19.2.8",
-        "remotion": "4.0.516",
+        "remotion": "4.0.517",
         "zod": "4.4.3",
       },
       "devDependencies": {
@@ -725,7 +725,7 @@
 
     "recast": ["recast@0.23.21", "", { "dependencies": { "ast-types": "^0.16.1", "esprima": "~4.0.0", "source-map": "~0.6.1", "tiny-invariant": "^1.3.3", "tslib": "^2.0.1" } }, "sha512-mFAyJq9vUbSTARLZUvAEf1z3YxlvAwswbmxMx2mPA/MSm4KmpwvwvhsH/NIrZhyOuwD60Lzyw2qh83uCbgTPYw=="],
 
-    "remotion": ["remotion@4.0.516", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-soUOkBf7xMfhWIZuZ82pf2iHmsumjtnRVCztA27wXd8xjcM6YSPI3LPNL+x/wSo7eiUadkF6GBIpDGU1l6bAzg=="],
+    "remotion": ["remotion@4.0.517", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-FRoscN20deacRF1MV5gXLTokTGL6t8ElLlYm06mEouGOkjgEA7Pgm7zppvnhqbMp+89G9pt3sJsJMI+f897FHQ=="],
 
     "require-from-string": ["require-from-string@2.0.2", "", {}, "sha512-Xf0nWe6RseziFMu+Ap9biiUbmplq6S9/p+7w7YXP/JBHhrUDDUhwa+vANyubuqfZWTveU//DYVGsDG7RKL/vEw=="],
 
@@ -847,43 +847,15 @@
 
     "@babel/traverse/@babel/types": ["@babel/types@7.29.7", "", { "dependencies": { "@babel/helper-string-parser": "^7.29.7", "@babel/helper-validator-identifier": "^7.29.7" } }, "sha512-4zBIxpPzowiZpusoFkyGVwakdRJUyuH5PxQ/PrqghfdFWWasvnCdPfQXHrenDai+gyLARulZjZowCOj6fjT4pA=="],
 
-    "@remotion/bundler/remotion": ["remotion@4.0.517", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-FRoscN20deacRF1MV5gXLTokTGL6t8ElLlYm06mEouGOkjgEA7Pgm7zppvnhqbMp+89G9pt3sJsJMI+f897FHQ=="],
-
-    "@remotion/canvas/remotion": ["remotion@4.0.517", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-FRoscN20deacRF1MV5gXLTokTGL6t8ElLlYm06mEouGOkjgEA7Pgm7zppvnhqbMp+89G9pt3sJsJMI+f897FHQ=="],
-
-    "@remotion/cli/remotion": ["remotion@4.0.517", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-FRoscN20deacRF1MV5gXLTokTGL6t8ElLlYm06mEouGOkjgEA7Pgm7zppvnhqbMp+89G9pt3sJsJMI+f897FHQ=="],
-
     "@remotion/media/mediabunny": ["mediabunny@1.55.1", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-JDdTEUOw9g6Ey8eWc2Ei63GmRGtGTJoE56SE7CHikwzS8i9xpsWcve4bEiUw47d4j49L3r7MXDFsH/5oZIhjBw=="],
-
-    "@remotion/media/remotion": ["remotion@4.0.517", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-FRoscN20deacRF1MV5gXLTokTGL6t8ElLlYm06mEouGOkjgEA7Pgm7zppvnhqbMp+89G9pt3sJsJMI+f897FHQ=="],
 
     "@remotion/media-utils/mediabunny": ["mediabunny@1.55.1", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-JDdTEUOw9g6Ey8eWc2Ei63GmRGtGTJoE56SE7CHikwzS8i9xpsWcve4bEiUw47d4j49L3r7MXDFsH/5oZIhjBw=="],
 
-    "@remotion/media-utils/remotion": ["remotion@4.0.517", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-FRoscN20deacRF1MV5gXLTokTGL6t8ElLlYm06mEouGOkjgEA7Pgm7zppvnhqbMp+89G9pt3sJsJMI+f897FHQ=="],
-
-    "@remotion/player/remotion": ["remotion@4.0.517", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-FRoscN20deacRF1MV5gXLTokTGL6t8ElLlYm06mEouGOkjgEA7Pgm7zppvnhqbMp+89G9pt3sJsJMI+f897FHQ=="],
-
-    "@remotion/renderer/remotion": ["remotion@4.0.517", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-FRoscN20deacRF1MV5gXLTokTGL6t8ElLlYm06mEouGOkjgEA7Pgm7zppvnhqbMp+89G9pt3sJsJMI+f897FHQ=="],
-
     "@remotion/studio/mediabunny": ["mediabunny@1.55.1", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-JDdTEUOw9g6Ey8eWc2Ei63GmRGtGTJoE56SE7CHikwzS8i9xpsWcve4bEiUw47d4j49L3r7MXDFsH/5oZIhjBw=="],
-
-    "@remotion/studio/remotion": ["remotion@4.0.517", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-FRoscN20deacRF1MV5gXLTokTGL6t8ElLlYm06mEouGOkjgEA7Pgm7zppvnhqbMp+89G9pt3sJsJMI+f897FHQ=="],
-
-    "@remotion/studio-codemods/remotion": ["remotion@4.0.517", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-FRoscN20deacRF1MV5gXLTokTGL6t8ElLlYm06mEouGOkjgEA7Pgm7zppvnhqbMp+89G9pt3sJsJMI+f897FHQ=="],
-
-    "@remotion/studio-server/remotion": ["remotion@4.0.517", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-FRoscN20deacRF1MV5gXLTokTGL6t8ElLlYm06mEouGOkjgEA7Pgm7zppvnhqbMp+89G9pt3sJsJMI+f897FHQ=="],
-
-    "@remotion/studio-shared/remotion": ["remotion@4.0.517", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-FRoscN20deacRF1MV5gXLTokTGL6t8ElLlYm06mEouGOkjgEA7Pgm7zppvnhqbMp+89G9pt3sJsJMI+f897FHQ=="],
 
     "@remotion/timeline-utils/mediabunny": ["mediabunny@1.55.1", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-JDdTEUOw9g6Ey8eWc2Ei63GmRGtGTJoE56SE7CHikwzS8i9xpsWcve4bEiUw47d4j49L3r7MXDFsH/5oZIhjBw=="],
 
-    "@remotion/timeline-utils/remotion": ["remotion@4.0.517", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-FRoscN20deacRF1MV5gXLTokTGL6t8ElLlYm06mEouGOkjgEA7Pgm7zppvnhqbMp+89G9pt3sJsJMI+f897FHQ=="],
-
     "@remotion/web-renderer/mediabunny": ["mediabunny@1.55.1", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-JDdTEUOw9g6Ey8eWc2Ei63GmRGtGTJoE56SE7CHikwzS8i9xpsWcve4bEiUw47d4j49L3r7MXDFsH/5oZIhjBw=="],
-
-    "@remotion/web-renderer/remotion": ["remotion@4.0.517", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-FRoscN20deacRF1MV5gXLTokTGL6t8ElLlYm06mEouGOkjgEA7Pgm7zppvnhqbMp+89G9pt3sJsJMI+f897FHQ=="],
-
-    "@remotion/zod-types/remotion": ["remotion@4.0.517", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-FRoscN20deacRF1MV5gXLTokTGL6t8ElLlYm06mEouGOkjgEA7Pgm7zppvnhqbMp+89G9pt3sJsJMI+f897FHQ=="],
 
     "@svgr/hast-util-to-babel-ast/@babel/types": ["@babel/types@7.29.7", "", { "dependencies": { "@babel/helper-string-parser": "^7.29.7", "@babel/helper-validator-identifier": "^7.29.7" } }, "sha512-4zBIxpPzowiZpusoFkyGVwakdRJUyuH5PxQ/PrqghfdFWWasvnCdPfQXHrenDai+gyLARulZjZowCOj6fjT4pA=="],
 
