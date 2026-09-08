@@ -6,7 +6,7 @@
       "name": "transcript-remotion",
       "dependencies": {
         "@google/genai": "2.21.0",
-        "@remotion/captions": "4.0.520",
+        "@remotion/captions": "4.0.521",
         "@remotion/cli": "4.0.520",
         "@remotion/media": "4.0.520",
         "@types/react": "19.2.18",
@@ -271,7 +271,7 @@
 
     "@remotion/canvas": ["@remotion/canvas@4.0.520", "", { "dependencies": { "@remotion/player": "4.0.520", "remotion": "4.0.520" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-Z3pYE3WUUwQpWPhofWCs6S33sqJgFHg7g4sj91/0Pxdp53E4VRzfP+EwgxT917JmHG0WeO6F819x8vx6fIXteg=="],
 
-    "@remotion/captions": ["@remotion/captions@4.0.520", "", {}, "sha512-6ubhfQoTrc4mUXewvrwQtj9K89yQaLBYkQUMYOdBwCExsoJ+Kvk/XhB+wfaNLbw0c4gV7UujrJMwIJO5pmbDxw=="],
+    "@remotion/captions": ["@remotion/captions@4.0.521", "", {}, "sha512-6GI/nfQUtkGIRvtdt9ENKK2ze84nv4YBh1J0Ocj9sXUs9FO0N9MsihInOeFhUkPT+HuraW0tZmOpDHg9yO1qKg=="],
 
     "@remotion/cli": ["@remotion/cli@4.0.520", "", { "dependencies": { "@babel/parser": "7.24.1", "@remotion/bundler": "4.0.520", "@remotion/media-utils": "4.0.520", "@remotion/player": "4.0.520", "@remotion/renderer": "4.0.520", "@remotion/studio": "4.0.520", "@remotion/studio-server": "4.0.520", "@remotion/studio-shared": "4.0.520", "dotenv": "17.3.1", "minimist": "1.2.6", "prompts": "2.4.2", "remotion": "4.0.520", "semver": "7.5.3" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" }, "bin": { "remotion": "remotion-cli.js", "remotionb": "remotionb-cli.js", "remotiond": "remotiond-cli.js" } }, "sha512-7P36naC+H1/65RKINtXYC13QxifcJK0FbarXkCziZJgM1wzmeRfOzGkeBLdfznwXdCkLjer7SXVvJoZ65X4UDw=="],
 
@@ -852,6 +852,8 @@
     "@remotion/media/zod": ["zod@4.4.3", "", {}, "sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ=="],
 
     "@remotion/media-utils/mediabunny": ["mediabunny@1.55.5", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-m0v6y8FGXiK+HKOc3AZqU+kJPLYsSKaLitmQNQIIHZKIGlTwQ34OF+X6Ul0K8iV4b03oPse10apwuoqbvmKeAA=="],
+
+    "@remotion/studio/@remotion/captions": ["@remotion/captions@4.0.520", "", {}, "sha512-6ubhfQoTrc4mUXewvrwQtj9K89yQaLBYkQUMYOdBwCExsoJ+Kvk/XhB+wfaNLbw0c4gV7UujrJMwIJO5pmbDxw=="],
 
     "@remotion/studio/mediabunny": ["mediabunny@1.55.5", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-m0v6y8FGXiK+HKOc3AZqU+kJPLYsSKaLitmQNQIIHZKIGlTwQ34OF+X6Ul0K8iV4b03oPse10apwuoqbvmKeAA=="],
 
