@@ -97,21 +97,10 @@ transcript-remotion/
 | `bun run studio` | Start Remotion Studio |
 | `bun run render` | Render video (auto-detects video/audio) |
 | `bun run transcribe` | Run transcription |
-| `bun run build` | Bundle both video and audio compositions for production |
 | `bun run lint` | Run oxlint |
 | `bun run lint:fix` | Run oxlint with auto-fix |
 | `bun run fmt` | Format code with oxfmt |
 | `bun run fmt:check` | Check code formatting |
-
-## Validation
-
-Run `bun install --frozen-lockfile`, `bun run lint`, `bun run fmt:check`, and
-`bun run build` before submitting dependency updates. CI exposes the production
-bundle as a separate `build` check, alongside `lint` and GitHub Actions Security.
-The build starts at `src/index.ts` and bundles both transcript compositions,
-including their media and caption imports. It requires no API keys or input media.
-It validates bundling, but does not exercise transcription APIs or render media;
-use the preview and render commands above to validate a specific input file.
 
 ## Tooling
 

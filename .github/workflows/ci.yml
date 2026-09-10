@@ -17,18 +17,11 @@ jobs:
           persist-credentials: false
       - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
       - run: bun install --frozen-lockfile
+      # Build first so a bundling failure stops CI before lint and format checks run.
+      - name: Build
+        run: bun run build
       - parallel:
           - name: Lint
             run: bun run lint
           - name: Check format
             run: bun run fmt:check
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-        with:
-          persist-credentials: false
-      - uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2.2.0
-      - run: bun install --frozen-lockfile
-      - name: Bundle video and audio compositions
-        run: bun run build
