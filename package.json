@@ -29,11 +29,11 @@
     "@remotion/captions": "4.0.523",
     "@remotion/cli": "4.0.523",
     "@remotion/media": "4.0.523",
-    "@types/react": "19.2.18",
+    "@types/react": "19.3.0",
     "mediabunny": "1.56.1",
     "openai": "7.12.1",
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
     "remotion": "4.0.523",
     "zod": "4.6.1"
   }
