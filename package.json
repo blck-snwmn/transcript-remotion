@@ -31,7 +31,7 @@
     "@remotion/media": "4.0.526",
     "@types/react": "19.3.0",
     "mediabunny": "1.57.0",
-    "openai": "7.17.0",
+    "openai": "7.18.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",
     "remotion": "4.0.525",
