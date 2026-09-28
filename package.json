@@ -30,7 +30,7 @@
     "@remotion/cli": "4.0.528",
     "@remotion/media": "4.0.529",
     "@types/react": "19.3.0",
-    "mediabunny": "1.59.1",
+    "mediabunny": "1.60.0",
     "openai": "7.23.0",
     "react": "19.3.0",
     "react-dom": "19.3.0",
