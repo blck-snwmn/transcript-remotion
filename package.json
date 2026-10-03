@@ -28,7 +28,7 @@
     "@google/genai": "2.24.0",
     "@remotion/captions": "4.0.530",
     "@remotion/cli": "4.0.530",
-    "@remotion/media": "4.0.529",
+    "@remotion/media": "4.0.530",
     "@types/react": "19.3.0",
     "mediabunny": "1.60.0",
     "openai": "7.23.0",
