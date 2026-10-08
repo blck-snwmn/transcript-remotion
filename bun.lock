@@ -6,7 +6,7 @@
       "name": "transcript-remotion",
       "dependencies": {
         "@google/genai": "2.27.0",
-        "@remotion/captions": "4.0.532",
+        "@remotion/captions": "4.0.533",
         "@remotion/cli": "4.0.532",
         "@remotion/media": "4.0.533",
         "@types/react": "19.3.0",
@@ -271,7 +271,7 @@
 
     "@remotion/canvas": ["@remotion/canvas@4.0.532", "", { "dependencies": { "@remotion/player": "4.0.532", "@remotion/studio-shared": "4.0.532", "remotion": "4.0.532" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-7HwcyUBCLmE1oQD+mtV7HjC/7d+jXEk3ZiX0XvdjuBBhTeb381jiC0LZoObEk307x6LV5d63B4ZNMAyA/Kapjw=="],
 
-    "@remotion/captions": ["@remotion/captions@4.0.532", "", {}, "sha512-1DzWEnv5DCGESIq1ux1C1M/z/sJMv08A7Z+1bHAnGW3gVrg37QtoRyhyDvWKJZHnNIYiEmBeICSeQpgu5p0Bdw=="],
+    "@remotion/captions": ["@remotion/captions@4.0.533", "", {}, "sha512-fpChAcV3ofZURHOvtfGnHFAspynkwQVEla/mTorlQ9yw9hb53+QFzug8NP3BAfHvjCJcLmUdBpbuUwLzDu66Ig=="],
 
     "@remotion/cli": ["@remotion/cli@4.0.532", "", { "dependencies": { "@babel/parser": "7.24.1", "@remotion/bundler": "4.0.532", "@remotion/media-utils": "4.0.532", "@remotion/player": "4.0.532", "@remotion/renderer": "4.0.532", "@remotion/studio": "4.0.532", "@remotion/studio-server": "4.0.532", "@remotion/studio-shared": "4.0.532", "dotenv": "17.3.1", "minimist": "1.2.6", "prompts": "2.4.2", "remotion": "4.0.532", "semver": "7.5.3" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" }, "bin": { "remotion": "remotion-cli.js", "remotionb": "remotionb-cli.js", "remotiond": "remotiond-cli.js" } }, "sha512-1Iy4IFK1KN4LOBjGcJh56ZlW/NQdbTEMhFG0H1g1rHvx8Vva9aQdF/rtFi7cvFon99WvPJPc8k2F1jFNba9BIQ=="],
 
@@ -901,6 +901,8 @@
 
     "@remotion/codemods/remotion": ["remotion@4.0.532", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-YsxSVz4E7HDKhC9v+O9sNCA9ud05VuWbjTX/ko51lf4MV+uyyrvsAyVNbPW2pW9Nk5Ty+JPdW3osRr5A+hXOoA=="],
 
+    "@remotion/elevenlabs/@remotion/captions": ["@remotion/captions@4.0.532", "", {}, "sha512-1DzWEnv5DCGESIq1ux1C1M/z/sJMv08A7Z+1bHAnGW3gVrg37QtoRyhyDvWKJZHnNIYiEmBeICSeQpgu5p0Bdw=="],
+
     "@remotion/elevenlabs/zod": ["zod@4.5.4", "", {}, "sha512-sC95tT5iHHH9gtpj6A81kh+NEaRAUFN+qlUPDUbRfOMvNf5QCBqsb3WgvnpVtK5Y+4UfA6KqufotuTvMGiTlsA=="],
 
     "@remotion/media/mediabunny": ["mediabunny@1.56.1", "", { "dependencies": { "@types/dom-mediacapture-transform": "^0.1.11", "@types/dom-webcodecs": "0.1.13" } }, "sha512-DNOm0bRBmeOxJgCK/g3LxNWbxY5morTauNdlychujGmJ9L37ezVezkNoI1WtO2Xdb4WlWWJlYfIKnOEzd5phRw=="],
@@ -911,6 +913,8 @@
 
     "@remotion/media-utils/remotion": ["remotion@4.0.532", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-YsxSVz4E7HDKhC9v+O9sNCA9ud05VuWbjTX/ko51lf4MV+uyyrvsAyVNbPW2pW9Nk5Ty+JPdW3osRr5A+hXOoA=="],
 
+    "@remotion/openai-whisper/@remotion/captions": ["@remotion/captions@4.0.532", "", {}, "sha512-1DzWEnv5DCGESIq1ux1C1M/z/sJMv08A7Z+1bHAnGW3gVrg37QtoRyhyDvWKJZHnNIYiEmBeICSeQpgu5p0Bdw=="],
+
     "@remotion/openai-whisper/zod": ["zod@4.5.4", "", {}, "sha512-sC95tT5iHHH9gtpj6A81kh+NEaRAUFN+qlUPDUbRfOMvNf5QCBqsb3WgvnpVtK5Y+4UfA6KqufotuTvMGiTlsA=="],
 
     "@remotion/paths/remotion": ["remotion@4.0.532", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-YsxSVz4E7HDKhC9v+O9sNCA9ud05VuWbjTX/ko51lf4MV+uyyrvsAyVNbPW2pW9Nk5Ty+JPdW3osRr5A+hXOoA=="],
@@ -918,6 +922,8 @@
     "@remotion/player/remotion": ["remotion@4.0.532", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-YsxSVz4E7HDKhC9v+O9sNCA9ud05VuWbjTX/ko51lf4MV+uyyrvsAyVNbPW2pW9Nk5Ty+JPdW3osRr5A+hXOoA=="],
 
     "@remotion/renderer/remotion": ["remotion@4.0.532", "", { "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-YsxSVz4E7HDKhC9v+O9sNCA9ud05VuWbjTX/ko51lf4MV+uyyrvsAyVNbPW2pW9Nk5Ty+JPdW3osRr5A+hXOoA=="],
+
+    "@remotion/studio/@remotion/captions": ["@remotion/captions@4.0.532", "", {}, "sha512-1DzWEnv5DCGESIq1ux1C1M/z/sJMv08A7Z+1bHAnGW3gVrg37QtoRyhyDvWKJZHnNIYiEmBeICSeQpgu5p0Bdw=="],
 
     "@remotion/studio/@remotion/media": ["@remotion/media@4.0.532", "", { "dependencies": { "mediabunny": "1.56.1", "remotion": "4.0.532", "zod": "4.5.4" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-tY8GhDaqwhPQz0/e2eioe2EBUSQsYhpkQSYvwBdl+VrhPFfJ3t4YpEIeUJx0rJm1rH1/zhQISkMIS92WHUMjRQ=="],
 
